@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>tabelas</title>
+
+<style>
+  table, th, td {border: 1px solid #000;}
+  th, td {padding: 15px;}
+.nome {background-color:red ;}
+.email {background-color:yellow ;}
+.telefone {background-color:rgb(60, 255, 0) ;}
+.cargo {background-color:rgb(0, 47, 255) ;}
+
+</style>
+
+</head>
+<body>
+  <h1>tabelas</h1>
+
+<table>
+<caption>
+  <h2>cadastro de clientes</h2>
+</caption>
+
+<colgroup>
+<col class="nome">
+<col class="email">
+<col class="telefone">
+<col class="cargo">
+</colgroup>
+
+<thead>
+<tr>
+<th>nome:</th>
+<th>email:</th>
+<th>telefone:</th>
+<th>cargo:</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td>bruno</td> 
+<td>bruno02bb@gmail.com</td> 
+<td>(45) 99838130</td> 
+<td rowspan="2"> contrutor</td>
+</tr>
+
+
+
+<tr>
+  <td>fernando</td>
+  <td>fernando02bb@gmail.com</td>
+  <td>(45) 99520330</td>
+  </tr>
+  </tbody>
+
+  <tfoot>
+<tr>
+<td colspan="4">total:2</td>  
+</tr>
+</tfoot>
+
+</table>
+
+</body>
+</html>
